@@ -21,8 +21,8 @@ export function renderImages (event) {
             .insertAdjacentHTML("beforeend", imageMarkup(image))
             });
         lightBox.refresh()
-        document.querySelector('body')
-        .insertAdjacentHTML('beforeend', '<div class="scroll-point" style="display: inline-block;"></div>')
+        document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="scroll-point" style="display: inline-block;"></div>')
+
         observer.observe(document.querySelector('.scroll-point'))    
     })
 }
