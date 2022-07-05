@@ -23,6 +23,7 @@ export function renderImages (event) {
         lightBox.refresh()
         document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="scroll-point" style="display: inline-block;"></div>')
 
-        observer.observe(document.querySelector('.scroll-point'))    
+        observer.observe(document.querySelector('.scroll-point'))
+           
     })
 }

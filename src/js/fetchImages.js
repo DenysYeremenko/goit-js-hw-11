@@ -1,5 +1,6 @@
 import axios from 'axios';
 import {params} from '../index'
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
